@@ -1,0 +1,11 @@
+{
+  "name": "lp-waiting-in-line",
+  "version": "1.0.0",
+  "description": "LINE Waiting Feature LP",
+  "scripts": {
+    "build": "mkdir -p public && cp index.html style.css script.js *.jpg *.png public/ 2>/dev/null || :"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
