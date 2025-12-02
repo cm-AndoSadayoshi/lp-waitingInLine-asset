@@ -1,239 +1,272 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LINE順番待ち - グロースパック for LINE | クラスメソッド</title>
-    <meta name="description" content="LINE公式アカウント拡張機能「グロースパック for LINE」に新機能「LINE順番待ち」が登場。混雑緩和と顧客データ活用を同時に解決し、スタッフの負担も軽減します。">
+    <meta name="description" content="待望の「LINE順番待ち」アセットが登場。「ただ待たせる」時間から、顧客エンゲージメントを高め、自然な流れで会員化を実現するCRMツールへ。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
         <div class="container header-container">
             <div class="logo">
-                <span class="logo-text">Growth Pack <span class="logo-sub">for LINE</span></span>
+                <span class="logo-text">Growth Pack <span class="logo-sub">for <span
+                            class="line-brand">LINE</span></span></span>
             </div>
             <nav class="nav">
-                <a href="#features" class="nav-link">特長</a>
-                <a href="#usecases" class="nav-link">活用シーン</a>
-                <a href="#company" class="nav-link">会社概要</a>
-                <a href="#contact" class="btn btn-primary btn-sm">お問い合わせ</a>
+                <a href="#contact" class="btn btn-sm btn-primary">お問い合わせ</a>
             </nav>
-            <button class="mobile-menu-btn" aria-label="メニューを開く">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
         </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <div class="hero-badge">New Feature</div>
-                    <h1 class="hero-title">
-                        行列の待ち時間を<br>
-                        <span class="text-gradient">「最高の顧客体験」</span>と<br>
-                        <span class="text-gradient">「会員化」</span>のチャンスへ。
-                    </h1>
-                    <p class="hero-subtitle">
-                        LINE公式アカウント拡張機能「グロースパック for LINE」に新機能が登場。<br>
-                        混雑緩和と顧客データ活用を同時に解決し、スタッフの負担も軽減します。
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-catch">その行列、誰が並んでいるか見えていますか？</p>
+                <h1 class="hero-title">
+                    待ち時間を<span class="gradient-text">「顧客体験」</span>と<br>
+                    <span class="gradient-text">「会員化」</span>のチャンスへ変える、<br>
+                    次世代の順番待ちシステム
+                </h1>
+                <p class="hero-desc">
+                    待望の「LINE順番待ち」アセットが登場。<br>
+                    「ただ待たせる」時間から、顧客エンゲージメントを高め、自然な流れで会員化を実現するCRMツールへ。
+                </p>
+                <div class="hero-cta">
+                    <a href="https://www.google.com/search?q=%23contact" class="btn btn-secondary">デモを利用してみる</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <img src="hero_illustration.png" alt="LINE順番待ちイメージ" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="section issues" id="issues">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">こんなお悩みありませんか？</h2>
+                <p class="section-subtitle">手書きの記帳台や、呼び出し専用ベルを使っているけれど…</p>
+            </div>
+            <div class="issues-grid">
+                <div class="issue-card reveal">
+                    <div class="issue-icon">😓</div>
+                    <h3 class="issue-title">「スタッフ」の業務が圧迫されている</h3>
+                    <p class="issue-desc">行列整理や度重なる呼び出し業務に追われ、本来の接客やサービス提供に集中できない。</p>
+                </div>
+                <div class="issue-card reveal">
+                    <div class="issue-icon">😤</div>
+                    <h3 class="issue-title">「顧客満足度」が低下している</h3>
+                    <p class="issue-desc">お客様にとって「ただ拘束される待ち時間」は苦痛であり、クレームや満足度低下の原因になっている。</p>
+                </div>
+                <div class="issue-card reveal">
+                    <div class="issue-icon">👋</div>
+                    <h3 class="issue-title">「離脱」による機会損失が見えない</h3>
+                    <p class="issue-desc">待ち時間の長さを見て、記帳する前に帰ってしまうお客様（サイレント・オポチュニティロス）が発生している。</p>
+                </div>
+                <div class="issue-card reveal">
+                    <div class="issue-icon">👤</div>
+                    <h3 class="issue-title">「誰」が待っているか特定できない</h3>
+                    <p class="issue-desc">来店客の属性やリピート状況がわからず、待っている間にお客様に応じたアプローチができない。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="section solutions" id="solutions">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">その悩み、「LINE順番待ち」アセットで解決できます。</h2>
+            </div>
+            <div class="solutions-grid reveal">
+                <div class="solution-card">
+                    <h3>待ち時間を「自由な時間」へ。<br>最高のCXを提供。</h3>
+                    <p>ユーザーはQRコードから整理券を発行し、あと何組かをリアルタイムで確認できます。順番が近づくとLINEで自動通知が届くため、店頭で並び続ける必要がありません。この「自由な時間」が顧客満足度を劇的に向上させます。
                     </p>
-                    <div class="hero-actions">
-                        <a href="#contact" class="btn btn-primary">資料をダウンロードする</a>
-                        <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
-                    </div>
                 </div>
-                <div class="hero-visual">
-                    <!-- Image will be placed here -->
-                    <div class="hero-image-placeholder">
-                        <img src="hero_illustration.png" alt="LINE順番待ちイメージ" class="hero-img">
-                    </div>
+                <div class="solution-card">
+                    <h3>「待っている間」に会員登録。<br>自然なデータ連携。</h3>
+                    <p>最大の強みは、順番待ちエントリーから会員証発行への導線がシームレスであること。「お呼び出しまでの間に登録を済ませる」という自然な流れを作り出し、高い確率で会員化およびLINE友だち追加を実現します。
+                    </p>
                 </div>
-            </div>
-            <div class="hero-bg-glow"></div>
-        </section>
-
-        <!-- Issues Section -->
-        <section class="section issues" id="issues">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">店舗運営における「行列」と<br>「機会損失」にお悩みではありませんか？</h2>
-                    <p class="section-subtitle">こんなお悩みありませんか？</p>
-                </div>
-                <div class="issues-grid">
-                    <div class="issue-card">
-                        <div class="issue-icon">😓</div>
-                        <h3 class="issue-title">スタッフの業務圧迫</h3>
-                        <p class="issue-desc">人手不足の中、「行列整理」や「呼び出し業務」がスタッフの大きな負担になっている。</p>
-                    </div>
-                    <div class="issue-card">
-                        <div class="issue-icon">😤</div>
-                        <h3 class="issue-title">顧客満足度の低下</h3>
-                        <p class="issue-desc">お客様にとって「ただ待たされる時間」は苦痛であり、満足度低下の要因となっている。</p>
-                    </div>
-                    <div class="issue-card">
-                        <div class="issue-icon">👋</div>
-                        <h3 class="issue-title">離脱による機会損失</h3>
-                        <p class="issue-desc">待ち時間の長さを見て利用を諦めてしまうお客様（離脱）が発生している。</p>
-                    </div>
+                <div class="solution-card">
+                    <h3>必要な機能を、必要なだけ。<br>「ハーフスクラッチ」の柔軟性。</h3>
+                    <p>基本的な発券・呼出機能はパッケージとして提供し、短期間での導入を実現。一方で、発券機との連携や席種の細かい指定など、企業ごとの独自フローにはカスタマイズ開発で柔軟に対応します。</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Solution Section -->
-        <section class="section solution" id="solution">
-            <div class="container">
-                <div class="solution-content">
-                    <div class="solution-text">
-                        <h2 class="section-title text-left">その課題、<br><span class="text-gradient">「LINE順番待ち」</span>が解決します。</h2>
-                        <p class="solution-desc">
-                            専用アプリのダウンロードは不要。<br>
-                            「グロースパック for LINE」の新機能「LINE順番待ち」は、LINEミニアプリ上で完結するスムーズな順番待ちシステムです。<br>
-                            待ち時間を「顧客とのエンゲージメントを高める時間」へと転換します。
-                        </p>
-                    </div>
-                    <div class="solution-visual">
-                        <!-- Image placeholder -->
-                        <div class="solution-image-placeholder">
-                            <img src="solution_illustration.png" alt="LINE順番待ちソリューション" class="solution-img">
-                        </div>
-                    </div>
-                </div>
+    <!-- Comparison Section -->
+    <section class="section comparison" id="comparison">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">機能比較</h2>
+                <p class="section-subtitle">アナログ運用とここが違います。本格的なDXなら「LINE順番待ちアセット」</p>
             </div>
-        </section>
-
-        <!-- Benefits Section -->
-        <section class="section benefits" id="features">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">LINE順番待ちが選ばれる3つの理由</h2>
-                </div>
-                
-                <div class="benefit-item">
-                    <div class="benefit-content">
-                        <div class="benefit-number">01</div>
-                        <h3 class="benefit-title">待ち時間を「自由な時間」へ。<br>最高の顧客体験(CX)を提供</h3>
-                        <p class="benefit-desc">
-                            ユーザーは店頭のQRコードやリッチメニューから簡単に整理券を発行できます。
-                            「あと何組待ちか」をリアルタイムで確認でき、順番が近づくとLINEで自動通知が届くため、店頭で並び続ける必要がありません。
-                            待ち時間を買い物や移動に充てることができ、顧客満足度が大幅に向上します。
-                        </p>
-                    </div>
-                    <div class="benefit-visual">
-                        <div class="benefit-image-placeholder">
-                             <img src="benefit1.png" alt="自由な時間" class="benefit-img">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="benefit-item reverse">
-                    <div class="benefit-content">
-                        <div class="benefit-number">02</div>
-                        <h3 class="benefit-title">「待っている間」に会員登録。<br>シームレスなマーケティング連携</h3>
-                        <p class="benefit-desc">
-                            最大の特長は、順番待ちエントリーから会員証発行への導線がスムーズである点です。
-                            「お呼び出しまでの間に会員登録を済ませる」という自然な流れを作ることで、ユーザーの手持ち無沙汰な時間を活用します。
-                            これにより、高い確率で会員化およびLINE友だち追加を実現します。
-                        </p>
-                    </div>
-                    <div class="benefit-visual">
-                        <div class="benefit-image-placeholder">
-                            <img src="benefit2.png" alt="会員登録連携" class="benefit-img">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <div class="benefit-content">
-                        <div class="benefit-number">03</div>
-                        <h3 class="benefit-title">必要な機能を、必要なだけ。<br>「ハーフスクラッチ」による柔軟性</h3>
-                        <p class="benefit-desc">
-                            基本的な発券・呼出・管理機能はパッケージとして標準提供し、低コストかつ短期間での導入を実現します。
-                            一方で、発券機連携や席種指定など、企業ごとの細かい要望にはカスタマイズ開発で柔軟に対応可能です。
-                        </p>
-                    </div>
-                    <div class="benefit-visual">
-                        <div class="benefit-image-placeholder">
-                            <img src="benefit3.png" alt="柔軟なカスタマイズ" class="benefit-img">
-                        </div>
-                    </div>
-                </div>
+            <div class="comparison-table-wrapper reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>機能</th>
+                            <th>従来のアナログ運用（紙・ベル）</th>
+                            <th class="highlight">LINE順番待ちアセット (本製品)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>呼び出し</td>
+                            <td>× 店頭で声をかける/ベル振動のみ</td>
+                            <td class="highlight"><strong>◎ LINE通知（場所を問わない）</strong></td>
+                        </tr>
+                        <tr>
+                            <td>待ち時間の質</td>
+                            <td>× その場に拘束（ストレス）</td>
+                            <td class="highlight"><strong>◎ 自由時間（買い物・移動可）</strong></td>
+                        </tr>
+                        <tr>
+                            <td>会員化・分析</td>
+                            <td>× 不可（名前を書くだけ）</td>
+                            <td class="highlight"><strong>◎ ID連携・属性分析が可能</strong></td>
+                        </tr>
+                        <tr>
+                            <td>離脱防止</td>
+                            <td>× 離脱を追えない</td>
+                            <td class="highlight"><strong>◎ 離脱通知・再来店アプローチ可</strong></td>
+                        </tr>
+                        <tr>
+                            <td>導入コスト</td>
+                            <td>◎ 安価（紙代のみ）</td>
+                            <td class="highlight"><strong>◎ パッケージ化で開発費を圧縮</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Use Cases Section -->
-        <section class="section usecases" id="usecases">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">様々な業種・シーンで<br>ご活用いただけます</h2>
-                </div>
-                <div class="usecases-grid">
-                    <div class="usecase-card">
+    <!-- Use Cases Section -->
+    <section class="section usecases" id="usecases">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">活用シーン</h2>
+                <p class="section-subtitle">業種・業態に合わせた柔軟な設計</p>
+            </div>
+            <div class="usecases-grid">
+                <div class="usecase-card reveal">
+                    <div class="usecase-header">
                         <div class="usecase-icon">🍽️</div>
-                        <h3 class="usecase-title">飲食チェーン・カフェ</h3>
-                        <p class="usecase-desc">ランチタイムの混雑緩和や、テイクアウトの呼び出しに。</p>
+                        <h3>飲食チェーン・カフェ</h3>
                     </div>
-                    <div class="usecase-card">
+                    <p><strong>ランチタイムの混雑緩和</strong><br>店頭の混雑を解消し、スタッフの呼び出し業務を削減。テイクアウトの完成通知にも活用可能。</p>
+                </div>
+                <div class="usecase-card reveal">
+                    <div class="usecase-header">
                         <div class="usecase-icon">🏥</div>
-                        <h3 class="usecase-title">クリニック・調剤薬局</h3>
-                        <p class="usecase-desc">院内感染予防のための「院外待機」や、処方箋受付後の呼び出しに。</p>
+                        <h3>クリニック・調剤薬局</h3>
                     </div>
-                    <div class="usecase-card">
+                    <p><strong>院内感染予防と「院外待機」</strong><br>待合室の「3密」を回避。処方箋受付後にLINEで呼び出すことで、患者様の安心感と利便性を向上。</p>
+                </div>
+                <div class="usecase-card reveal">
+                    <div class="usecase-header">
                         <div class="usecase-icon">👗</div>
-                        <h3 class="usecase-title">アパレル・ポップアップ</h3>
-                        <p class="usecase-desc">セール時の入場制限や、試着室の順番待ちに。</p>
+                        <h3>アパレル・イベント</h3>
                     </div>
-                    <div class="usecase-card">
-                        <div class="usecase-icon">🎪</div>
-                        <h3 class="usecase-title">商業施設イベント</h3>
-                        <p class="usecase-desc">撮影会や体験イベントの整理券配布に。</p>
-                    </div>
+                    <p><strong>セール・入場制限の整理券</strong><br>ポップアップストアや撮影会の入場整理券として。長蛇の列を作らせず、ブランドイメージを損なわない運営を実現。</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Company Section -->
-        <section class="section company" id="company">
-            <div class="container">
-                <div class="company-content">
-                    <h2 class="section-title">クラスメソッド株式会社について</h2>
-                    <p class="company-desc">
-                        クラスメソッドは、「グロースパック for LINE」を通じて、企業のDXと顧客体験の向上を支援しています。<br>
-                        本機能により、店舗運営の効率化だけでなく、集客・売上拡大に直結するマーケティングプラットフォームとしての価値を提供します。
-                    </p>
-                </div>
-            </div>
-        </section>
+    <!-- Synergy Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content reveal">
+                <h2 class="section-title">グロースパック for LINEについて</h2>
+                <p class="about-lead">クラスメソッドが提供する、LINEミニアプリ開発の最短ルート</p>
+                <p>「グロースパック for LINE」は、LINEミニアプリに必要な機能をパッケージ化したサービスです。<br>
+                    ゼロからの開発に比べ、<strong>圧倒的な低コスト・短期間</strong>での導入を実現します。</p>
 
-        <!-- CTA / Footer -->
-        <footer class="footer" id="contact">
-            <div class="container footer-container">
-                <div class="footer-cta">
-                    <h2 class="footer-title">まずはお気軽にお問い合わせください</h2>
-                    <p class="footer-desc">LINE活用による混雑緩和と会員化について、貴社に合わせたご提案をいたします。</p>
-                    <div class="footer-actions">
-                        <a href="#" class="btn btn-primary btn-lg">お問い合わせ</a>
-                        <a href="#" class="btn btn-outline btn-lg">サービス紹介ページを見る</a>
+                <div class="synergy-section">
+                    <h3 class="synergy-title">他アセットとのシナジー</h3>
+                    <div class="synergy-grid">
+                        <div class="synergy-card">
+                            <h4>[会員証アセット]と連携。「待ち時間」を会員化のトリガーに。</h4>
+                            <p>順番待ちのエントリー情報を、そのまま会員登録情報として活用可能。「待っている時間」というユーザーの手持ち無沙汰なタイミングを活用し、ストレスなく会員登録・ID連携を完了させます。
+                            </p>
+                        </div>
+                        <div class="synergy-card">
+                            <h4>[セグメント配信]と連携。来店後の「追客」を自動化。</h4>
+                            <p>「順番待ちを利用したけれど、まだ購入履歴がない」「長時間待っていただいた」など、利用状況に応じたセグメント配信が可能。来店のお礼メッセージや、次回来店クーポンの自動配信により、リピーター化を促進します。
+                            </p>
+                        </div>
                     </div>
-                    <div class="contact-info">
-                        <p>お問い合わせ先: 広報担当</p>
-                        <p>Email: inquiry@classmethod.jp</p>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2025 Classmethod, Inc. All rights reserved.</p>
                 </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </section>
+
+    <!-- Flow Section -->
+    <section class="section flow" id="flow">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">導入フロー</h2>
+            </div>
+            <div class="flow-steps">
+                <div class="flow-step reveal">
+                    <div class="step-number">01</div>
+                    <h3>ヒアリング</h3>
+                    <p>貴社の店舗オペレーションと解決したい課題をお伺いします。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">02</div>
+                    <h3>要件定義</h3>
+                    <p>必要な呼び出しロジックや画面デザインを設計します。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">03</div>
+                    <h3>開発・導入</h3>
+                    <p>スピーディに環境を構築し、店舗への導入を支援します。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">04</div>
+                    <h3>グロース支援</h3>
+                    <p>導入後の待機時間データの分析や、運用改善もサポートします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-cta reveal">
+                <h2 class="footer-title">「ただ待たせる」から「ファンを作る」へ。<br>LINE活用を次のステージに進めませんか？</h2>
+                <p class="footer-desc">まずは詳細な機能・事例がわかる資料をご覧ください。</p>
+                <div class="footer-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">資料ダウンロード（無料）</a>
+                    <a href="#" class="btn btn-secondary btn-lg">お問い合わせ・お見積もり</a>
+                </div>
+            </div>
+            <div class="company-info">
+                <p>&copy; 2025 Classmethod, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
