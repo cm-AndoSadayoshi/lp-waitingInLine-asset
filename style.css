@@ -227,12 +227,12 @@ h6 {
     color: var(--text-secondary);
 }
 
-/* Problems/Issues Section */
-.issues {
+/* Challenges Section */
+.challenges {
     background: var(--surface-color);
 }
 
-.issues-grid {
+.challenges-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* Changed to 4 columns */
@@ -240,7 +240,7 @@ h6 {
     margin-bottom: 40px;
 }
 
-.issue-card {
+.challenge-card {
     background: white;
     padding: 30px;
     border-radius: 16px;
@@ -249,11 +249,11 @@ h6 {
     transition: transform 0.3s ease;
 }
 
-.issue-card:hover {
+.challenge-card:hover {
     transform: translateY(-5px);
 }
 
-.issue-icon {
+.challenge-icon {
     font-size: 3rem;
     margin-bottom: 20px;
 }
@@ -337,17 +337,17 @@ h6 {
 }
 
 /* Use Cases Section */
-.usecases {
+.use-cases {
     background: white;
 }
 
-.usecases-grid {
+.use-cases-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.usecase-card {
+.use-case-card {
     background: white;
     padding: 40px;
     border-radius: 24px;
@@ -355,16 +355,16 @@ h6 {
     transition: all 0.3s ease;
 }
 
-.usecase-card:hover {
+.use-case-card:hover {
     border-color: var(--accent-primary);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.usecase-header {
+.use-case-header {
     margin-bottom: 20px;
 }
 
-.usecase-tag {
+.use-case-tag {
     display: inline-block;
     padding: 4px 12px;
     background: var(--surface-color);
@@ -374,7 +374,7 @@ h6 {
     margin-bottom: 10px;
 }
 
-.usecase-card h3 {
+.use-case-card h3 {
     font-size: 1.5rem;
 }
 
@@ -511,7 +511,7 @@ h6 {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .issues-grid {
+    .challenges-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -530,11 +530,11 @@ h6 {
         padding: 60px 0;
     }
 
-    .issues-grid {
+    .challenges-grid {
         grid-template-columns: 1fr;
     }
 
-    .usecases-grid {
+    .use-cases-grid {
         grid-template-columns: 1fr;
     }
 }
