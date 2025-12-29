@@ -166,9 +166,11 @@ h6 {
 
 .hero-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 60px;
     align-items: center;
+    text-align: center;
+    justify-items: center;
 }
 
 .hero-catch {
@@ -194,6 +196,7 @@ h6 {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Section Headers */
